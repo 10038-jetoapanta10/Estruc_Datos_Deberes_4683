@@ -1,0 +1,10 @@
+/* UFA-ESPE
+*TITULO
+*Autores: Diego Torres y Jonathan Toapanta
+*Fecha de creacion: AA/FF/DD
+*Fecha de modificacion: AA/MM/DD
+*Grupo 
+*github del grupo: jetoapanta10@espe.edu.ec  y dftorres8@espe.edu.ec
+*version: 1
+*Estructura de Datos 4683
+*/
