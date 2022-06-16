@@ -29,7 +29,9 @@ int main()
         cout<<"5.Salir\n"<<endl;
         cout<<"Elija la opcion que desea ejecutar: ";
         cin>>opciones;
-
+        
+//MENUUUUUUU
+        
         switch(opciones){
             case 1: cout<<"\nDigite un numero: ";
                     cin>>dato;
