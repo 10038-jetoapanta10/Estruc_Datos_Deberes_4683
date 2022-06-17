@@ -1,3 +1,14 @@
+/* UFA-ESPE
+*Practica de transformacion de expresiones infijas a postfijas y prefijas
+*Autores: Diego Torres y Jonathan Toapanta
+*Fecha de creacion: 2022/06/17
+*Fecha de modificacion: 2022/06/17
+*Grupo 17
+*github del grupo: jetoapanta10@espe.edu.ec  y dftorres8@espe.edu.ec
+*version: 1.0
+*Estructura de Datos 4683
+*/
+
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
