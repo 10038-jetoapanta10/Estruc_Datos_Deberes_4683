@@ -31,6 +31,7 @@ int main()
         cin>>opciones;
         
 //MENUUUUUUU
+        //Siuuuuuuuuuu
         
         switch(opciones){
             case 1: cout<<"\nDigite un numero: ";
