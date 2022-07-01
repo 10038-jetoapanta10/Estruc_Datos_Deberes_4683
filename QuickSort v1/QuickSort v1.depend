@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1655859395 source:c:\users\usuario\desktop\escritoria diego\estructura de datos\vectores\dinamica\quicksort v1\quicksort v1\src\arreglo.cpp
+	"Arreglo.h"
+
+1655859589 c:\users\usuario\desktop\escritoria diego\estructura de datos\vectores\dinamica\quicksort v1\quicksort v1\include\arreglo.h
+	<iostream>
+
+1655860984 source:c:\users\usuario\desktop\escritoria diego\estructura de datos\vectores\dinamica\quicksort v1\quicksort v1\main.cpp
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	"Arreglo.h"
+	"Procesos.h"
+
+1655860681 source:c:\users\usuario\desktop\escritoria diego\estructura de datos\vectores\dinamica\quicksort v1\quicksort v1\src\procesos.cpp
+	"Procesos.h"
+	"Arreglo.h"
+
+1655860673 c:\users\usuario\desktop\escritoria diego\estructura de datos\vectores\dinamica\quicksort v1\quicksort v1\include\procesos.h
+	<iostream>
+
