@@ -174,7 +174,7 @@ void elimina(ABB &arbol, int x)
      }
 }
 
-int alturaAB(ABB arbol)
+int alturaAB(ABB arbol)  //ABB == Arbol *arbol
 {
     int AltIzq, AltDer;
 
