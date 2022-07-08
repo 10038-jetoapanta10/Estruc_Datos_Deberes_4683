@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1657250564 source:c:\users\usuario\desktop\escritoria diego\estructura de datos\arbolesbinarios\arbolbinario\main.cpp
+	<iostream>
+	"Arbol.h"
+	"Validar.h"
+
+1657250564 c:\users\usuario\desktop\escritoria diego\estructura de datos\arbolesbinarios\arbolbinario\include\arbol.h
+	<iostream>
+
+1657250564 source:c:\users\usuario\desktop\escritoria diego\estructura de datos\arbolesbinarios\arbolbinario\src\arbol.cpp
+	"Arbol.h"
+
+1656909787 source:c:\users\usuario\desktop\escritoria diego\estructura de datos\arbolesbinarios\arbolbinario\src\validar.cpp
+	"Validar.h"
+
+1656908839 c:\users\usuario\desktop\escritoria diego\estructura de datos\arbolesbinarios\arbolbinario\include\validar.h
+	<conio.h>
+	<cstdlib>
+	<string.h>
+	<iostream>
+
