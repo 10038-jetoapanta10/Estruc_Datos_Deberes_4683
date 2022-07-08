@@ -19,7 +19,8 @@ int main()
         std::cout<<"5. Recorrido en InOrden"<<std::endl;
         std::cout<<"6. Recorrido en PostOrden"<<std::endl;
         std::cout<<"7. Eliminar un nodo del arbol"<<std::endl;
-        std::cout<<"8. Salir"<<std::endl;
+        std::cout<<"8. Altura del arbol"<<std::endl;
+        std::cout<<"9. Salir"<<std::endl;
         do{
             entrada=v1->ingresarDato("Opcion");
             valido=v1->validar_numero(entrada);
@@ -80,9 +81,17 @@ int main()
                     std::cout<<"\n\n";
                     system("pause");
                     break;
+            case 8: std::cout<<std::endl;
+                    int h;
+                    h= a1.alturaAB(arbol);
+                    std::cout<<"Altura: "<<h+1<<std::endl;
+                    std::cout<<"\n\n";
+                    system("pause");
+                    break;
             default: std::cout<<"Ingreso invalido"<<std::endl;
         }
         system("cls");
-    }while(opcion !=8);
+    }while(opcion !=9);
     return 0;
 }
+

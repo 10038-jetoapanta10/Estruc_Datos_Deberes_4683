@@ -18,11 +18,13 @@ class Arbol{
         void postOrden(Arbol *);
         Arbol *unirArbol(Arbol *izq,Arbol *der);
         void eliminar(Arbol *&arbol,int n);
+        int alturaAB(Arbol *arbol);
         /*void eliminar(Arbol *,int);
         void eliminarNodo(Arbol *);
         Arbol *minimo(Arbol *);
         void reemplazar(Arbol *,Arbol *);
         void destruirNodo(Arbol *);*/
+
 };
 
 #endif // ARBOL_H

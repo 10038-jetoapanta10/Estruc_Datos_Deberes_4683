@@ -19,3 +19,23 @@
 	<string.h>
 	<iostream>
 
+1657253348 source:c:\users\usuario\documents\git\github grup diego\estruc_datos_deberes_4683\arbolbinariov5\src\validar.cpp
+	"Validar.h"
+
+1657253348 c:\users\usuario\documents\git\github grup diego\estruc_datos_deberes_4683\arbolbinariov5\include\validar.h
+	<conio.h>
+	<cstdlib>
+	<string.h>
+	<iostream>
+
+1657255502 source:c:\users\usuario\documents\git\github grup diego\estruc_datos_deberes_4683\arbolbinariov5\main.cpp
+	<iostream>
+	"Arbol.h"
+	"Validar.h"
+
+1657255502 c:\users\usuario\documents\git\github grup diego\estruc_datos_deberes_4683\arbolbinariov5\include\arbol.h
+	<iostream>
+
+1657255502 source:c:\users\usuario\documents\git\github grup diego\estruc_datos_deberes_4683\arbolbinariov5\src\arbol.cpp
+	"Arbol.h"
+

@@ -109,6 +109,25 @@ void Arbol::eliminar(Arbol *&arbol,int n){
         delete p;
     }
 }
+
+int Arbol:: alturaAB(Arbol *arbol){
+    int AltIzq, AltDer;
+
+    if(arbol==NULL)
+        return -1;
+    else
+    {
+        AltIzq = alturaAB(arbol->izquierdo);
+        AltDer = alturaAB(arbol->derecho);
+
+        if(AltIzq>AltDer)
+            return AltIzq+1;
+        else
+            return AltDer+1;
+    }
+}
+
+
 /*void Arbol::eliminar(Arbol *arbol,int n){
 	if(arbol == NULL){
 		return;
