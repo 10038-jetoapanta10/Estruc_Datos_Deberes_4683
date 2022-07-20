@@ -28,14 +28,15 @@
 	<string.h>
 	<iostream>
 
-1657255502 source:c:\users\usuario\documents\git\github grup diego\estruc_datos_deberes_4683\arbolbinariov5\main.cpp
+1658289658 source:c:\users\usuario\documents\git\github grup diego\estruc_datos_deberes_4683\arbolbinariov5\main.cpp
 	<iostream>
 	"Arbol.h"
 	"Validar.h"
 
-1657255502 c:\users\usuario\documents\git\github grup diego\estruc_datos_deberes_4683\arbolbinariov5\include\arbol.h
+1658289027 c:\users\usuario\documents\git\github grup diego\estruc_datos_deberes_4683\arbolbinariov5\include\arbol.h
 	<iostream>
+	<bits/stdc++.h>
 
-1657255502 source:c:\users\usuario\documents\git\github grup diego\estruc_datos_deberes_4683\arbolbinariov5\src\arbol.cpp
+1658289304 source:c:\users\usuario\documents\git\github grup diego\estruc_datos_deberes_4683\arbolbinariov5\src\arbol.cpp
 	"Arbol.h"
 

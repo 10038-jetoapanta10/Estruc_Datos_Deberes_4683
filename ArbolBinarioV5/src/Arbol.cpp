@@ -127,73 +127,36 @@ int Arbol:: alturaAB(Arbol *arbol){
     }
 }
 
+void Arbol:: diagonalSumUtil(Arbol* arbol,int vd, std::map<int, int> &diagonalSum){
+    if (!arbol){
+        return;
 
-/*void Arbol::eliminar(Arbol *arbol,int n){
-	if(arbol == NULL){
-		return;
-	}
-	else if(n < arbol->dato){
-		eliminar(arbol->izquierdo,n);
-	}
-	else if(n > arbol->dato){
-		eliminar(arbol->derecho,n);
-	}
-	else{
-		eliminarNodo(arbol);
-	}
+    }else{
+
+       diagonalSum[vd] += arbol->dato;
+
+       diagonalSumUtil(arbol->izquierdo, vd + 1, diagonalSum);
+
+       diagonalSumUtil(arbol->derecho, vd, diagonalSum);
+    }
 }
 
-void Arbol::eliminarNodo(Arbol *nodoEliminar){
-	if(nodoEliminar->izquierdo && nodoEliminar->derecho){
-		Arbol *menor = minimo(nodoEliminar->derecho);
-		nodoEliminar->dato = menor->dato;
-		eliminarNodo(menor);
-	}
-	else if(nodoEliminar->izquierdo){
-		reemplazar(nodoEliminar,nodoEliminar->izquierdo);
-		destruirNodo(nodoEliminar);
-	}
-	else if(nodoEliminar->derecho){
-		reemplazar(nodoEliminar,nodoEliminar->derecho);
-		destruirNodo(nodoEliminar);
-	}
-	else{
-		reemplazar(nodoEliminar,NULL);
-		destruirNodo(nodoEliminar);
-	}
-}
+void Arbol:: diagonalSum(Arbol* arbol){
 
-Arbol *Arbol::minimo(Arbol *arbol){
-	if(arbol == NULL){
-		return NULL;
-	}
-	if(arbol->izquierdo){
-		return minimo(arbol->izquierdo);
-	}
-	else{
-		return arbol;
-	}
+    std::map<int, int> diagonalSum;
+
+    diagonalSumUtil(arbol, 0, diagonalSum);
+
+    std::map<int, int>::iterator i;
+
+    std::cout<< "\n\n La suma diagonal de nuestro arbolito es: "<<std::endl;
+
+    for(i = diagonalSum.begin();
+                i != diagonalSum.end(); ++i)
+    {
+        std::cout << i->second << " ";
+    }
 }
 
 
-void Arbol::reemplazar(Arbol *arbol,Arbol *nuevoNodo){
-	if(arbol->padre){
 
-		if(arbol->dato == arbol->padre->izquierdo->dato){
-			arbol->padre->izquierdo = nuevoNodo;
-		}
-		else if(arbol->dato == arbol->padre->derecho->dato){
-			arbol->padre->derecho = nuevoNodo;
-		}
-	}
-	if(nuevoNodo){
-		nuevoNodo->padre = arbol->padre;
-	}
-}
-
-
-void Arbol::destruirNodo(Arbol *nodo){
-	nodo->izquierdo = NULL;
-	nodo->derecho = NULL;
-	delete nodo;
-}*/

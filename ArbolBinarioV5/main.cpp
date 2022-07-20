@@ -20,7 +20,8 @@ int main()
         std::cout<<"6. Recorrido en PostOrden"<<std::endl;
         std::cout<<"7. Eliminar un nodo del arbol"<<std::endl;
         std::cout<<"8. Altura del arbol"<<std::endl;
-        std::cout<<"9. Salir"<<std::endl;
+        std::cout<<"9. Suma diagonal del arbol"<<std::endl;
+        std::cout<<"10. Salir"<<std::endl;
         do{
             entrada=v1->ingresarDato("Opcion");
             valido=v1->validar_numero(entrada);
@@ -88,10 +89,18 @@ int main()
                     std::cout<<"\n\n";
                     system("pause");
                     break;
+
+            case 9: std::cout<<std::endl;
+                    std::cout<<"El arbol obtenido es:\n\n";
+                    a1.mostrarArbol(arbol,contador);
+                    a1.diagonalSum(arbol);
+                    system("pause");
+                    break;
+
             default: std::cout<<"Ingreso invalido"<<std::endl;
         }
         system("cls");
-    }while(opcion !=9);
+    }while(opcion !=10);
     return 0;
 }
 
