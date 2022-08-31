@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1599228140 source:c:\users\intel\documents\documentos de programacion\c y c++\proyectos\proyecto_tetris_allegro_y\main.cpp
+	<iostream>
+	<allegro.h>
+	<time.h>
+	"Tetris_allegro.h"
+
+1599227213 c:\users\intel\documents\documentos de programacion\c y c++\proyectos\proyecto_tetris_allegro_y\tetris_allegro.h
+	<allegro.h>
+
+1599227440 source:c:\users\intel\documents\documentos de programacion\c y c++\proyectos\proyecto_tetris_allegro_y\tetris_allegro.cpp
+	"Tetris_allegro.h"
+	<allegro.h>
+
+1661166195 source:c:\users\usuario\downloads\proyecto_tetris_allegro_y\main.cpp
+	<iostream>
+	<allegro.h>
+	<time.h>
+	"Tetris_allegro.h"
+
+1599230813 c:\users\usuario\downloads\proyecto_tetris_allegro_y\tetris_allegro.h
+	<allegro.h>
+
+1599231844 source:c:\users\usuario\downloads\proyecto_tetris_allegro_y\recurso.rc
+
+1599231040 source:c:\users\usuario\downloads\proyecto_tetris_allegro_y\tetris_allegro.cpp
+	"Tetris_allegro.h"
+	<allegro.h>
+
+1661312330 source:c:\users\usuario\documents\codeblocks\proyecto_final_tetris\main.cpp
+	<iostream>
+	<allegro.h>
+	<time.h>
+	"Tetris_allegro.h"
+
+1661308404 c:\users\usuario\documents\codeblocks\proyecto_final_tetris\tetris_allegro.h
+	<allegro.h>
+
+1599231844 source:c:\users\usuario\documents\codeblocks\proyecto_final_tetris\recurso.rc
+
+1661308380 source:c:\users\usuario\documents\codeblocks\proyecto_final_tetris\tetris_allegro.cpp
+	"Tetris_allegro.h"
+	<allegro.h>
+
